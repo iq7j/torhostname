@@ -39,6 +39,6 @@ tor service start
 nano /var/lib/tor/hidden_service/hostname
 echo "congrats this is your hostname now(:"
 read -p "and now we will start nginx"
-nginx service start
-nginc service status
+service nginx start
+service nginx status
 echo "now it should be working..."
